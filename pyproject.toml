@@ -11,4 +11,5 @@ dependencies = [
     "pyautogui>=0.9.54",
     "pyinstaller>=6.19.0",
     "pyscreeze>=1.0.1",
+    "pyside6>=6.10.2",
 ]
