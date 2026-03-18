@@ -126,7 +126,7 @@ class CounterView(QWidget):
         self.sendTimes.emit(self.times)
         self.sendModeIndex.emit(self.mode_index)
 
-    def unlockbtn(self):
+    def unlockbtn(self):    # 锁定 / 解锁按钮
         self.button_cancel.setDisabled(True)
         self.button_cmit.setDisabled(False)
 

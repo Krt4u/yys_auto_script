@@ -26,12 +26,11 @@ view.startFlag.connect(logic.start) # logic.start 是阻塞线程无法执行其
 '''
 def exit_start():
     logic.__on_q_press()
-view.button_cancel.clicked.connect(exit_start)
+view.button_cancel.clicked.connect(exit_start)  # 间接调用退出
 
-thread_logic.finished.connect(logic.deleteLater)
+thread_logic.finished.connect(logic.deleteLater)    # 清除执行完成的线程
 
 thread_logic.start()
-# 测试可用性，为什么按钮不会禁用
 
 def on_quit():
     thread_logic.quit()

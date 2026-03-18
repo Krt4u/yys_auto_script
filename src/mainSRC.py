@@ -222,7 +222,6 @@ class CounterLogic(QObject):
                 self.restartFlag = False
                 return -1
                 
-
             try:
                 location = pyautogui.locateOnScreen(image_path, confidence=confidence, region=region)
                 if location is not None:      # 找到图片
