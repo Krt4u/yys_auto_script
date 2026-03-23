@@ -131,8 +131,3 @@ class CounterView(QWidget):
         self.button_cmit.setDisabled(False)
 
 
-if __name__ =='__main__':
-    app = QApplication([])
-    view = CounterView()
-    view.show()
-    app.exec()

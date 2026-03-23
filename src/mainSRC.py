@@ -412,13 +412,13 @@ class CounterLogic(QObject):
     # def __shutdown(self):
     #     os.system('shutdown -s -t ')
 
-def main():
-    test = CounterLogic()
-    test.setTimess(100)
-    test.setMod(1)
-    test.start()
+# def main():
+#     test = CounterLogic()
+#     test.setTimess(100)
+#     test.setMod(1)
+#     test.start()
 
 
-if __name__ == '__main__':
+# if __name__ == '__main__':
 
-    main()
+#     main()
